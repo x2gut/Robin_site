@@ -1,0 +1,18 @@
+.btn {
+    font-size: 16px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #8491A0;
+    transition: padding-botom 0.4s;
+
+    &:hover{
+        padding-bottom: 4px;
+    }
+}
+
+.btn--dark {
+    color: $level1Color;
+}
+
+.btn--white {
+    color: $textColor;
+}

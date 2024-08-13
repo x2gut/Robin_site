@@ -1,0 +1,158 @@
+@media (max-width: 1450px) {
+    .hero::after {
+        display: none;
+    }
+
+    .partners__partner {
+        flex: 1 1 33%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .photography__images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photography__image {
+        flex: 1 1 50%;
+    }
+}
+
+@media (max-width: 960px) {
+    .skillset__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skillset__text {
+        max-width: 100% !important;
+    }
+
+    .testimonials__card-content {
+        padding: 32px 32px !important;
+    }
+}
+
+@media  (max-width: 768px) {
+
+    .hero__container {
+        padding-right: 0 !important;
+    }
+    .hero__content  {
+        flex-wrap: wrap;
+    }
+    .hero__text {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0 !important;
+    }
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .experience__bottom {
+        flex-wrap: wrap;
+        gap: 40px !important;
+    }
+
+    .philosophy__content {
+        flex-wrap: wrap;
+    }
+
+    .philosophy__img {
+        max-width: 768px !important;
+        flex: 0 1 auto !important;
+        width: 100%;
+    }
+
+    .projects__container {
+        flex-wrap: wrap;
+    }
+
+    .partners__container {
+        padding: 0;
+    }
+
+    .instagram__container {
+        padding-left: 0 !important;
+    }
+
+    .instagram__content {
+        flex-wrap: wrap;
+    }
+
+    .instagram__text {
+        padding-left: 10px;
+    }
+
+    .instagram__image {
+        padding-left: 0;
+    }
+
+    .testimonials__content {
+        flex-wrap: wrap;
+    }
+    
+    .contact__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 560px)  {
+    .hero {
+        padding: 0 !important;
+        margin-top: -88px;
+    }
+
+    .nav__list {
+        display: none !important;
+    }
+
+    .header__burger-btn.visually-hidden {
+        position: static ;
+        width: auto;
+        height: auto;
+        margin: 0;
+        border: initial;
+        padding: initial;
+        white-space: normal;
+        clip-path: none;
+        clip: auto;
+        overflow: visible;
+    }
+
+    .skillset__cards {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    
+    .partners__partner {
+        flex: 1 1 40%;
+    }
+
+    .photography__btns {
+        flex-wrap: wrap;
+        & li {
+            display: flex;
+            justify-content: center;
+            flex: 1 1 40%;
+        }
+    }
+
+    .photography__btn {
+        width: 148px;
+        height: 51px;
+        padding: 0 !important;
+    }
+
+    .footer__wrapper {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 360px)  {
+    .footer__nav {
+        flex-wrap: wrap;
+    }
+}

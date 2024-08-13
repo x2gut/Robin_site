@@ -1,0 +1,47 @@
+.skillset__container {
+    padding-top: 120px;
+    display: flex;
+    gap: 72px;
+    padding-bottom: 120px;
+}
+
+.skillset__text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 368px;
+    opacity: 0;
+}
+
+.skillset__title {
+    padding-bottom: 24px;
+}
+
+.skillset__paragraph {
+    color: #8491A0;
+}
+
+.skillset__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 72px;
+    row-gap: 48px;
+}
+
+.skillset__card {
+    max-width: 368px;
+    opacity: 0;
+    & svg {
+        margin-bottom: 24px;
+    }
+}
+
+.card__title {
+    padding-bottom: 12px;
+}
+
+.card__paragraph {
+    font-size: 16px !important;
+    line-height: 150%;
+    color: #8491A0;
+}

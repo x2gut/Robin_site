@@ -1,0 +1,51 @@
+.experience__top {
+    max-width: 690px;
+    padding-top: clamp(48px, 5vw, 120px);
+    opacity: 0;
+}
+.experience__subtitle {
+    font-size: 16px;
+    color: $lightGreyColor;
+    text-transform: uppercase;
+}
+.experience__title {
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.experience__bottom {
+    display: flex;
+    gap: 101px;
+    padding-bottom: 144px;
+}
+
+.experience__card {
+    opacity: 0;
+}
+
+.experience__number {
+    font-size: 117px;
+    color: #8491A0;
+}
+
+.experience__heading {
+    padding-bottom: 22px;
+}
+
+.google {
+    color: $greenAccentColor;
+}
+
+.facebook {
+    color: #609BFF;
+}
+
+.dribble {
+    color: $pinkAccent;
+}
+
+.experience__text {
+    font-size: 16px;
+    color: $darkGreyColor;
+    line-height: 150%;
+}

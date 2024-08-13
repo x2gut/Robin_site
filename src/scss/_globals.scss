@@ -1,0 +1,64 @@
+@import "./vars";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $baseColor;
+    font-family: "Sen", "sans-serif";
+    font-size: 18px;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+h1 {
+    font-size: clamp(48px, 4.5vw, 78px) !important;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 55px !important;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+p {
+    margin: 0 !important;
+    font-size: 18px !important;
+}

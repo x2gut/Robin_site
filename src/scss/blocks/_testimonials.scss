@@ -1,0 +1,64 @@
+.testimonials {
+    /* Стили для блока testimonials */
+}
+
+.testimonials__container {
+    padding-top: 120px;
+}
+
+.testimonials__content {
+    display: flex;
+    gap: clamp(23px, 3.75vw, 72px);
+    padding-bottom: 120px;
+}
+
+.testimonials__text {
+    max-width: 588px;
+}
+
+.testimonials__title {
+    padding-bottom: 24px;
+}
+
+.testimonials__description {
+    font-size: 18px;
+    color: #8491A0;
+    padding-bottom: 40px;
+}
+
+.testimonials__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.testimonials__card {
+    max-width: 636px;
+    border: 1px solid #5B6876;
+    opacity: 0;
+}
+
+.testimonials__image {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+}
+
+.testimonials__card-content {
+    padding: 64px;
+}
+
+.testimonials__quote {
+    padding-bottom: 64px;
+}
+
+.testimonials__author {
+    color: #5B6876;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.testimonials__position {
+    color: #5B6876;
+    font-size: 16px;
+}

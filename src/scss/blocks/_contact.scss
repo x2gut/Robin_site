@@ -1,0 +1,67 @@
+.contact__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.contact__left {
+    max-width: 526px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact__title {
+    font-size: clamp(32px, 3vw, 55px) !important;
+}
+
+.contact__paragraph {
+    color: #8491A0;
+    font-size: 18px;
+}
+
+.contact__right {
+    width: 100%;
+    max-width: 526px;
+
+    & form {
+        display: flex;
+        flex-direction: column;
+
+        input:focus, textarea:focus {
+            outline: 1px solid $primaryColor;
+            caret-color: #FFF;
+        }
+    }
+
+    & form label {
+        margin-bottom: 8px;
+    }
+
+    & form input, & form textarea {
+        color: #fff;
+        min-height: 50px;
+        margin-bottom: 40px;
+        background-color: $level1Color;
+        border: 0;
+    }
+
+}
+
+#message {
+    min-height: 100px;
+    padding: 15px 15px;
+    resize: none;
+    &:focus {
+        outline: 0;
+        border: 0;
+    }
+}
+
+.photography__submit {
+    color: #FFF;
+    background-color: $primaryColor;
+    border: 0;
+    height: 75px;
+    text-transform: uppercase;
+}

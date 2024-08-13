@@ -1,0 +1,65 @@
+
+.photography__container {
+
+}
+
+.photography__top {
+    max-width: 588px;
+}
+
+.photography__title {
+    padding-bottom: 24px;
+    font-size: clamp(32px, 2.8vw, 55px) !important;
+}
+
+.photography__paragraph {
+    color: #8491A0;
+    font-size: 18px;
+    padding-bottom: 64px;
+}
+
+.photography__btns {
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+
+    & li {
+        list-style: none;
+    }
+}
+
+.photography__btn {
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 1px solid $primaryColor;
+
+    transition: all 0.3s;
+
+    color: #FFF;
+
+    &.active {
+        background-color: $primaryColor;
+    }
+
+    &:hover:not(.active) {
+        transform: scale(1.03);
+    }
+}
+
+.photography__bottom {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.photography__images {
+    display: flex;
+    gap: 24px;
+    max-width: 1300px;
+}
+
+.photography__image {
+    width: 100%;
+    height: auto;
+    max-width: 306px;
+    max-height: 420px;
+}

@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.no-scroll  {
+    overflow-y: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.visible  {
+    position: static ;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: initial;
+    padding: initial;
+    white-space: normal;
+    clip-path: none;
+    clip: auto;
+    overflow: visible;
+}
+
+
+.sticky {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: translateY(88px);
+    transition: transform 0.2s ease;
+}
+
+.scrolled-top {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: scroll-top 0.5s forwards;
+}
+
+.scrolled-right {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: scroll-right 0.5s forwards;
+
+}
+
+.scrolled-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: scroll-right 0.5s forwards;
+}
+
+.scrolled-bottom {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: scroll-right 0.5s forwards;
+}
+
+@keyframes scroll-right {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll-top {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scroll-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

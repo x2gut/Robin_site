@@ -1,0 +1,23 @@
+.partners {
+}
+.partners__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.partners__partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
+    height: 140px;
+    border: 1px solid $level1Color;
+    transition:  background-color 0.3s;
+    opacity: 0;
+    &:hover {
+        cursor: pointer;
+        background-color: $primaryColor;
+        opacity: 1;
+    }
+}

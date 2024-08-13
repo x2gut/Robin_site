@@ -1,0 +1,45 @@
+.instagram {
+    background-color: #FBE4FF;
+}
+
+.instagram__container {
+    max-width: 1440px;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.instagram__content {
+    display: flex;
+    gap: clamp(40px, 5vw, 107px);
+    opacity: 0;
+}
+
+.instagram__text {
+    flex: 1;
+    max-width: 576px;
+    padding-top: 120px;
+}
+
+.instagram__title {
+    color: #181823;
+    padding-bottom: 24px;
+}
+
+.instagram__paragraph {
+    font-size: 18px;
+    color: #5B6876;
+    padding-bottom: 134px;
+}
+
+
+.instagram__image {
+    max-width: 720px;
+    max-height: 600px;
+    overflow: hidden;
+
+    & img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
